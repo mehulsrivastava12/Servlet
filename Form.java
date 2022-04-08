@@ -1,16 +1,17 @@
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 public class Form extends HttpServlet {
- 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
-      response.setContentType("text/html");
+            response.setContentType("text/html");
+
       PrintWriter out = response.getWriter();
       String title = "Using GET Method to Read Form Data";
       String docType =
-         "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
+         "<!doctype html public \"-//w3c//dtd html 4.0 " +
+         "transitional//en\">\n";
+         
       out.println(docType +
          "<html>\n" +
             "<head><title>" + title + "</title></head>\n" +
@@ -22,8 +23,8 @@ public class Form extends HttpServlet {
                   "  <li><b>Last Name</b>: "
                   + request.getParameter("last_name") + "\n" +
                "</ul>\n" +
-            "</body>" +
-         "</html>"
+            "</body>"+
+            "</html>"
       );
    }
 }

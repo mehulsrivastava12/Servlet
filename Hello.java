@@ -1,7 +1,7 @@
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-public class HelloWorld extends HttpServlet {
+public class Hello extends HttpServlet {
     private String message;
     public void init() throws ServletException {
       message = "Hello World";
