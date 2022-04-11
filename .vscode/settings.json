@@ -3,6 +3,7 @@
         "lib/**/*.jar",
         "/home/ongraph/Downloads/javax.servlet-api-3.0.1.jar",
         "/home/ongraph/Downloads/mysql-connector-java-8.0.28.jar",
-        "/opt/tomcat/lib/mysql-connector-java-8.0.28.jar"
+        "/opt/tomcat/lib/mysql-connector-java-8.0.28.jar",
+        "/home/ongraph/Downloads/tomcat-servlet-api-9.0.55.jar"
     ]
 }
